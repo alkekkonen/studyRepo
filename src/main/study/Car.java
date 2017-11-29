@@ -1,4 +1,4 @@
-package main;
+package study;
 
 
 public class Car {
