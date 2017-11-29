@@ -2,16 +2,23 @@ package study;
 
 
 public class Car {
+
+    //Создаём поля класса
     private int maxSpeed;
 
     private String model;
 
+    //Полем класса может быть другой класс
     private Driver carDriver = new Driver();
 
+    //Создаём методы класса
+
+    //Едем
     public void ride(){
         System.out.println("Вжжжж");
     }
 
+    //Достаём имя водителя, если оно есть
     public String getDriverName() {
 
         String name;
@@ -21,12 +28,14 @@ public class Car {
         return name;
     }
 
-    public Driver getCarDriverDone() {
+    //Достаём самого водителя целиком
+    public Driver getCarDriver() {
         return carDriver;
     }
 
-    public void setCarDriverDone(Driver driverDone) {
-        this.carDriver = driverDone;
+    //Сажаем нового водителя
+    public void setCarDriver(Driver driver) {
+        this.carDriver = driver;
     }
 
 }
