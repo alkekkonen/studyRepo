@@ -1,4 +1,4 @@
-package study;
+package study.Lesson1;
 
 public class Vehicles {
     public static void main(String[] args) {
